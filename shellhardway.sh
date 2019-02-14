@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Début du script"
 
 list=$(ls -a)			# Variable pour parcourir les fichiers existants
