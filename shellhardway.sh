@@ -39,7 +39,7 @@ done
 if [ $dos = 2 ] # Cas où le dossier n'existe pas
 	then
 		echo "Le fichier n'existe pas."
-		echo "EXTERMINATE"
+		echo "EXTERMINATE 2"
         exit 1
 fi
 
