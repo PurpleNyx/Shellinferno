@@ -4,8 +4,8 @@ echo "Début du script"
 
 list=$(ls -a)			# Variable pour parcourir les fichiers existants
 dos=0 					# Variable d'existence du dossier
-#nom="DossierExo"		# Nom du dossier créé
-#fichierlog="fichierLog"	# Nom du fichier créé
+nom=$1					# Nom du dossier créé
+fichierlog=$2	# Nom du fichier créé
 
 # Création du fichier
 echo "Initialisation des logs" >> $HOME/$fichierlog.txt
