@@ -8,6 +8,8 @@ nom=$1					# Nom du dossier créé
 fichierlog=$2	# Nom du fichier créé
 
 # Création du fichier
+echo "Nom du dossier : "$nom
+echo "Nom du fichier : "$fichierlog
 echo "Initialisation des logs" >> $HOME/$fichierlog.txt
 
 # Création du répertoire
