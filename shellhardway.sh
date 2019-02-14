@@ -44,5 +44,5 @@ if [ $dos = 2 ] # Cas où le dossier n'existe pas
 fi
 
 cd $HOME
-rm $nom
+rm -rf $nom
 echo "Fin du script"
